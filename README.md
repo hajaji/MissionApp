@@ -9,6 +9,9 @@ To verify that you have it:
 - Expand SQL server.
 
 One of the server should be (localdb)\MSSQLLocalDB
+If you dont have it, you will need to install SQL Server Express
+
+https://go.microsoft.com/fwlink/?LinkID=866658
 
 In order to install the application
 
