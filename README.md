@@ -1,5 +1,5 @@
 # MissionAPP
-## Instalation
+## Installation
 
 Developed with .NET Core 5 using Visual Studio 2019 and MSSQLLocalDB.
 MSSQLocalDB shiped with Visual Studio 2019.
