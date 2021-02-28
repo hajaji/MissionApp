@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Geolocation" Version="1.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MissionApp.Domain\MissionApp.Domain.csproj" />
+    <ProjectReference Include="..\MissionApp.Models\MissionApp.Models.csproj" />
+    <ProjectReference Include="..\MissionApp.Repository\MissionApp.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
