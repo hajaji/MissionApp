@@ -18,7 +18,7 @@ In order to install the application
 - Clone the repository
 - Set **MissionApp.API** as startup project.
 - Open the Package Manager Console.
-- Make sure that Default project is **MissionApp.Data**.
+- In the console, make sure that Default project is **MissionApp.Data**.
 - Run the commands: ```add-migration init``` and then run ```update-database```.
 - Verify that you have a database with name ```MissionDB```.
 - In ```MissionApp.Data``` project, you will find folder named **sql_script**, inside the folder there is a file named ```script.sql```. The script populate the database with the input and the settings. Run the script in SQL.
